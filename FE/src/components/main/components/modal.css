@@ -1,0 +1,109 @@
+
+/*********** SSU2_MODAL_1 ****************/
+
+.ssu2_modal1 {
+    width: 80%;
+    min-width: 250px;
+    max-width: 1200px;
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    border-radius: 20px;
+    padding: 100px min(100px, 8%);
+}
+
+.ssu2_modal1_text1 {    
+    font-size: 60px;
+    line-height: 72px;
+    text-align: center;
+}
+
+.ssu2_modal1_input {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    margin: 50px auto 0px;
+}
+
+.ssu2_modal1_text2 {    
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.ssu2_modal1_button1 {
+    float: left;
+    width: 40%;
+    margin-left: 6%;
+    height: 80px;
+    margin-top: 50px;
+    background-color: #009CDE;    
+    color: white;
+    font-size: 22px;
+    font-weight: 26px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    border-width: 0px;
+}
+
+.ssu2_modal1_button2 {
+    float: left;
+    width: 40%;
+    margin-left: 6%;
+    height: 80px;
+    margin-top: 50px;
+    background-color: #333333;    
+    color: white;
+    font-size: 22px;
+    font-weight: 26px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    border-width: 0px;
+}
+
+.ssu_button {
+    width: 40%;
+    max-width: 400px;
+    min-width: 250px;
+    height: 80px;
+    margin: 40px auto 40px;
+    background-color: #009CDE;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 36px;
+    line-height: 42px;
+    color: white;
+}
+
+@media all and (max-width: 768px) {
+    .ssu2_modal1_text1 {    
+        font-size: 48px;
+        line-height: 54px;
+    }
+    
+    .ssu2_modal1_input {
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+    }
+    
+    .ssu2_modal1_text2 {    
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .ssu2_modal1_button1 {
+        width: 80%!important;
+        min-width: 200px!important;
+        margin: 50px auto 0px!important;
+    }
+
+    .ssu2_modal1_button2 {
+        width: 80%!important;
+        min-width: 200px!important;
+        margin: 10px auto 0px!important;
+    }
+}
